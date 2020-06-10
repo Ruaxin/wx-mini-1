@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundColor": "#333",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1c1b21",
+    "navigationBarTitleText": "多国翻译",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "borderStyle":"white",
+    "position":"bottom",
+    "color":"#595959",
+    "selectedColor":"#1c1b21",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"翻译",
+        "iconPath": "./images/fanyi.png",
+        "selectedIconPath": "./images/fanyi-c.png"
+      },
+      {
+        "pagePath":"pages/history/history",
+        "text":"历史",
+        "iconPath": "./images/history.png",
+        "selectedIconPath": "./images/history-c.png"
+      }
+    
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
